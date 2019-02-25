@@ -86,3 +86,5 @@ $ gunicorn --bind 127.0.0.1:8000 --workers 2 demo.wsgi:application
 ```
 
 Các bạn có thể lấy repo này về test thử, https://github.com/thanhngk/django-app-deployment
+
+Ngoài các static file, các bạn cũng có thể áp dụng cách này đối với các file được người dùng từ client upload lên server.
